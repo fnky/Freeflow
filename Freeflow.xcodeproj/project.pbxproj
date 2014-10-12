@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A86D1E8819EAFF7A00F6F21E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D1E8719EAFF7A00F6F21E /* main.m */; };
+		A86D1E8B19EAFF7A00F6F21E /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D1E8A19EAFF7A00F6F21E /* Document.m */; };
+		A86D1E8E19EAFF7A00F6F21E /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = A86D1E8C19EAFF7A00F6F21E /* Document.xib */; };
+		A86D1E9019EAFF7A00F6F21E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A86D1E8F19EAFF7A00F6F21E /* Images.xcassets */; };
+		A86D1E9319EAFF7A00F6F21E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A86D1E9119EAFF7A00F6F21E /* MainMenu.xib */; };
+		A86D1E9F19EAFF7A00F6F21E /* FreeflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D1E9E19EAFF7A00F6F21E /* FreeflowTests.m */; };
+		A86D1EAA19EB002C00F6F21E /* FlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = A86D1EA919EB002C00F6F21E /* FlowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A86D1E9919EAFF7A00F6F21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A86D1E7A19EAFF7A00F6F21E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A86D1E8119EAFF7A00F6F21E;
+			remoteInfo = Freeflow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A86D1E8219EAFF7A00F6F21E /* Freeflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Freeflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86D1E8619EAFF7A00F6F21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86D1E8719EAFF7A00F6F21E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A86D1E8919EAFF7A00F6F21E /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		A86D1E8A19EAFF7A00F6F21E /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		A86D1E8D19EAFF7A00F6F21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		A86D1E8F19EAFF7A00F6F21E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A86D1E9219EAFF7A00F6F21E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A86D1E9819EAFF7A00F6F21E /* FreeflowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreeflowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86D1E9D19EAFF7A00F6F21E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86D1E9E19EAFF7A00F6F21E /* FreeflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FreeflowTests.m; sourceTree = "<group>"; };
+		A86D1EA819EB002C00F6F21E /* FlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowView.h; sourceTree = "<group>"; };
+		A86D1EA919EB002C00F6F21E /* FlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A86D1E7F19EAFF7A00F6F21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86D1E9519EAFF7A00F6F21E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A86D1E7919EAFF7A00F6F21E = {
+			isa = PBXGroup;
+			children = (
+				A86D1E8419EAFF7A00F6F21E /* Freeflow */,
+				A86D1E9B19EAFF7A00F6F21E /* FreeflowTests */,
+				A86D1E8319EAFF7A00F6F21E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A86D1E8319EAFF7A00F6F21E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A86D1E8219EAFF7A00F6F21E /* Freeflow.app */,
+				A86D1E9819EAFF7A00F6F21E /* FreeflowTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A86D1E8419EAFF7A00F6F21E /* Freeflow */ = {
+			isa = PBXGroup;
+			children = (
+				A86D1E8919EAFF7A00F6F21E /* Document.h */,
+				A86D1E8A19EAFF7A00F6F21E /* Document.m */,
+				A86D1E8C19EAFF7A00F6F21E /* Document.xib */,
+				A86D1E8F19EAFF7A00F6F21E /* Images.xcassets */,
+				A86D1E9119EAFF7A00F6F21E /* MainMenu.xib */,
+				A86D1E8519EAFF7A00F6F21E /* Supporting Files */,
+				A86D1EA819EB002C00F6F21E /* FlowView.h */,
+				A86D1EA919EB002C00F6F21E /* FlowView.m */,
+			);
+			path = Freeflow;
+			sourceTree = "<group>";
+		};
+		A86D1E8519EAFF7A00F6F21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A86D1E8619EAFF7A00F6F21E /* Info.plist */,
+				A86D1E8719EAFF7A00F6F21E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A86D1E9B19EAFF7A00F6F21E /* FreeflowTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86D1E9E19EAFF7A00F6F21E /* FreeflowTests.m */,
+				A86D1E9C19EAFF7A00F6F21E /* Supporting Files */,
+			);
+			path = FreeflowTests;
+			sourceTree = "<group>";
+		};
+		A86D1E9C19EAFF7A00F6F21E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A86D1E9D19EAFF7A00F6F21E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A86D1E8119EAFF7A00F6F21E /* Freeflow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86D1EA219EAFF7A00F6F21E /* Build configuration list for PBXNativeTarget "Freeflow" */;
+			buildPhases = (
+				A86D1E7E19EAFF7A00F6F21E /* Sources */,
+				A86D1E7F19EAFF7A00F6F21E /* Frameworks */,
+				A86D1E8019EAFF7A00F6F21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Freeflow;
+			productName = Freeflow;
+			productReference = A86D1E8219EAFF7A00F6F21E /* Freeflow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A86D1E9719EAFF7A00F6F21E /* FreeflowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86D1EA519EAFF7A00F6F21E /* Build configuration list for PBXNativeTarget "FreeflowTests" */;
+			buildPhases = (
+				A86D1E9419EAFF7A00F6F21E /* Sources */,
+				A86D1E9519EAFF7A00F6F21E /* Frameworks */,
+				A86D1E9619EAFF7A00F6F21E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86D1E9A19EAFF7A00F6F21E /* PBXTargetDependency */,
+			);
+			name = FreeflowTests;
+			productName = FreeflowTests;
+			productReference = A86D1E9819EAFF7A00F6F21E /* FreeflowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A86D1E7A19EAFF7A00F6F21E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Reversebox;
+				TargetAttributes = {
+					A86D1E8119EAFF7A00F6F21E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					A86D1E9719EAFF7A00F6F21E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = A86D1E8119EAFF7A00F6F21E;
+					};
+				};
+			};
+			buildConfigurationList = A86D1E7D19EAFF7A00F6F21E /* Build configuration list for PBXProject "Freeflow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A86D1E7919EAFF7A00F6F21E;
+			productRefGroup = A86D1E8319EAFF7A00F6F21E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A86D1E8119EAFF7A00F6F21E /* Freeflow */,
+				A86D1E9719EAFF7A00F6F21E /* FreeflowTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A86D1E8019EAFF7A00F6F21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D1E8E19EAFF7A00F6F21E /* Document.xib in Resources */,
+				A86D1E9019EAFF7A00F6F21E /* Images.xcassets in Resources */,
+				A86D1E9319EAFF7A00F6F21E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86D1E9619EAFF7A00F6F21E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A86D1E7E19EAFF7A00F6F21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D1E8B19EAFF7A00F6F21E /* Document.m in Sources */,
+				A86D1E8819EAFF7A00F6F21E /* main.m in Sources */,
+				A86D1EAA19EB002C00F6F21E /* FlowView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86D1E9419EAFF7A00F6F21E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86D1E9F19EAFF7A00F6F21E /* FreeflowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A86D1E9A19EAFF7A00F6F21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A86D1E8119EAFF7A00F6F21E /* Freeflow */;
+			targetProxy = A86D1E9919EAFF7A00F6F21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A86D1E8C19EAFF7A00F6F21E /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86D1E8D19EAFF7A00F6F21E /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		A86D1E9119EAFF7A00F6F21E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A86D1E9219EAFF7A00F6F21E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A86D1EA019EAFF7A00F6F21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A86D1EA119EAFF7A00F6F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A86D1EA319EAFF7A00F6F21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Freeflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A86D1EA419EAFF7A00F6F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Freeflow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A86D1EA619EAFF7A00F6F21E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freeflow.app/Contents/MacOS/Freeflow";
+			};
+			name = Debug;
+		};
+		A86D1EA719EAFF7A00F6F21E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FreeflowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Freeflow.app/Contents/MacOS/Freeflow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A86D1E7D19EAFF7A00F6F21E /* Build configuration list for PBXProject "Freeflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86D1EA019EAFF7A00F6F21E /* Debug */,
+				A86D1EA119EAFF7A00F6F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A86D1EA219EAFF7A00F6F21E /* Build configuration list for PBXNativeTarget "Freeflow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86D1EA319EAFF7A00F6F21E /* Debug */,
+				A86D1EA419EAFF7A00F6F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A86D1EA519EAFF7A00F6F21E /* Build configuration list for PBXNativeTarget "FreeflowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86D1EA619EAFF7A00F6F21E /* Debug */,
+				A86D1EA719EAFF7A00F6F21E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A86D1E7A19EAFF7A00F6F21E /* Project object */;
+}
