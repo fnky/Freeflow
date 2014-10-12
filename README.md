@@ -2,6 +2,8 @@
 
 An OS X app to easily create flow charts.
 
+![Freeflow Mockup](https://github.com/fnky/Freeflow/blob/master/Mockups/Mockup-001.png)
+
 ## Dependencies
 
 - Xcode 6.0.x
