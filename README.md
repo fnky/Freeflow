@@ -1,3 +1,5 @@
+> ### NOTE – This is current in development and the source code does not currently reflect any images or documentation. These are for future reference.
+
 # Freeflow
 
 An OS X app to easily create flow charts.
