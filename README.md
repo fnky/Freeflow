@@ -13,7 +13,7 @@ An OS X app to easily create flow charts.
 
 ## Development
 
-This project is just for fun, learning Objective-C (perhaps later Swift) and to write a real-like OS X application. However, you can of course contribute as much as you'd like – I love getting to know better ways of doing things more effienct.
+This project is just for fun, learning Objective-C (perhaps later Swift) and to write a real-like OS X application. However, you can of course contribute as much as you'd like – I love getting to know better ways of doing things more efficient.
 
 ## About
 
